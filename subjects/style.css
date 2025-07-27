@@ -132,7 +132,80 @@ body {
 	cursor: pointer;
 	visibility: hidden;
 }
+/* Ranking */
 
+.head1 {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.report-container {
+	margin-top: 100px;
+    background-color: #fff;
+    padding: 40px;
+    width: 80%;
+    max-width: 900px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+	margin-top: 10px;
+    text-align: center;
+    color: #333;
+}
+
+.performance-overview, .ranking, .summary {
+    margin: 20px 0;
+}
+
+.performance-overview h2, .ranking h2, .summary h2 {
+    margin-bottom: 10px;
+    font-size: 1.5em;
+    color: #DF2771;
+}
+
+/* Ranking Table */
+.ranking-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 16px;
+}
+
+.ranking-table th, .ranking-table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.ranking-table th {
+    background-color: #DF2771;
+    color: white;
+}
+
+.ranking-table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.ranking-table tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Summary Section */
+.summary {
+    font-size: 1em;
+    line-height: 1.6;
+    color: #666;
+    text-align: justify;
+}
+
+/* Mentor Section */
 .mentor {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
